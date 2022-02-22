@@ -22,7 +22,7 @@
 
                 <div class="d-flex justify-content-end mt-4">
                     <x-jet-button class="ms-4">
-                        {{ __('Confirm') }}
+                        {{ __('Confirmar') }}
                     </x-jet-button>
                 </div>
             </form>

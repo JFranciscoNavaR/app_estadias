@@ -20,18 +20,21 @@
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+        
 
     </head>
     <body class="font-sans antialiased bg-light">
         <x-jet-banner />
         @livewire('navigation-menu')
-
         <!-- Page Heading -->
-        {{--<header class="d-flex py-3 bg-white shadow-sm border-bottom">
-            <div class="container">
-                {{ $header }}
-            </div>
-        </header>--}}
+        @auth
+        <x-navigation-header/>
+            {{--<header class="d-flex bg-white shadow-sm border-bottom">
+                <div class="container">
+                    {{ $header }}
+                </div>
+            </header>--}}
+        @endauth
 
         <!-- Page Content -->
         <main class="container my-0">
@@ -41,7 +44,10 @@
         @stack('modals')
 
         @livewireScripts
-
+        @isset($js)
+            {{ $js }}
+        @endisset
+        {{--<scripts></scripts>--}}
         @stack('scripts')
     </body>
 </html>
