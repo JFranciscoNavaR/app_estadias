@@ -148,7 +148,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="bg-white mx-2 mb-4">
+                        <div class="bg-white mx-2 mb-2">
                             <div class="table-responsive rounded">
                                 <table class="table table-hover table-bordered mb-0">
                                     <thead>
@@ -223,118 +223,1354 @@
                                         </tr>
                                         <tr>
                                             <td class="text-center">09:00</td>
-                                            <td>
-                                                <div class="accordion accordion-flush" id="accordionFlushExample1">
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="flush-headingOne1">
-                                                            <button class="accordion-button collapsed" type="button"
-                                                                data-bs-toggle="collapse"
-                                                                data-bs-target="#flush-collapseOne1"
-                                                                aria-expanded="false" aria-controls="flush-collapseOne1">
-                                                                Ana Karinberg
-                                                            </button>
-                                                        </h2>
-                                                        <div id="flush-collapseOne1" class="accordion-collapse collapse"
-                                                            aria-labelledby="flush-headingOne1"
-                                                            data-bs-parent="#accordionFlushExample1">
-                                                            <div class="accordion-body"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <td rowspan="2">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Lu">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    Ana Karinberg
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-chevron-down bg-secondary text-white rounded-circle p-1 m-1 fw-bold float-end"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
                                             </td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Ma">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td rowspan="2">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-circle-fill mb-1 text-warning"
+                                                                        viewBox="0 0 16 16">
+                                                                        <circle cx="8" cy="8" r="8" />
+                                                                    </svg>
+                                                                    Jonathan
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-chevron-down bg-secondary text-white rounded-circle p-1 m-1 fw-bold float-end"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Vi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">09:00</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">09:15</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td rowspan="4">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0915Ma">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-circle-fill mb-1 text-danger"
+                                                                        viewBox="0 0 16 16">
+                                                                        <circle cx="8" cy="8" r="8" />
+                                                                    </svg>
+                                                                    Adriano
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-chevron-down bg-secondary text-white rounded-circle p-1 m-1 fw-bold float-end"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0915Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0915Vi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0915Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">09:15</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">09:30</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td rowspan="2">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0930Lu">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-circle-fill mb-1 text-success"
+                                                                        viewBox="0 0 16 16">
+                                                                        <circle cx="8" cy="8" r="8" />
+                                                                    </svg>
+                                                                    Camilo
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-chevron-down bg-secondary text-white rounded-circle p-1 m-1 fw-bold float-end"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0930Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0930Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0930Vi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0930Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">09:30</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">09:45</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0945Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0945Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0945Vi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown0945Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">09:45</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">10:00</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td rowspan="2">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Lu">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill mb-1 text-success" viewBox="0 0 16 16">
+                                                                        <circle cx="8" cy="8" r="8"/>
+                                                                    </svg>
+                                                                    Yuri
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-chevron-down bg-secondary text-white rounded-circle p-1 m-1 fw-bold float-end" viewBox="0 0 16 16">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown10Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown10Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td rowspan="2">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0" id="navDropdown09Ma">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill mb-1 text-danger" viewBox="0 0 16 16">
+                                                                        <circle cx="8" cy="8" r="8"/>
+                                                                    </svg>
+                                                                    Diana
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-chevron-down bg-secondary text-white rounded-circle p-1 m-1 fw-bold float-end" viewBox="0 0 16 16">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown10Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">10:00</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">10:15</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1015Ma">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1015Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1015Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1015Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">10:15</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">10:30</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1030Lu">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1030Ma">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1030Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1030Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1030Vi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1030Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">10:30</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">10:45</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1045Lu">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1045Ma">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1045Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1045Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1045Vi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown1045Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">10:45</td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">11:00</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown11Lu">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown11Ma">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown11Mi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown11Ju">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown11Vi">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td class="bg-success bg-opacity-25 text-end">
+                                                <ul class="navbar-nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <x-jet-dropdown class="text-secondary p-0"
+                                                            id="navDropdown11Sa">
+                                                            <x-slot name="trigger">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                        height="16" fill="currentColor"
+                                                                        class="bi bi-plus-circle-fill text-success bg-white rounded-circle"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path
+                                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                                                    </svg>
+                                                                </div>
+                                                            </x-slot>
+                                                            <x-slot name="content">
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Dar cita
+                                                                </x-jet-dropdown-link>
+                                                                <x-jet-dropdown-link href="{{-- route('') --}}">
+                                                                    Bloquear espacio
+                                                                </x-jet-dropdown-link>
+                                                            </x-slot>
+                                                        </x-jet-dropdown>
+                                                    </li>
+                                                </ul>
+                                            </td>
                                             <td></td>
                                             <td class="text-center">11:00</td>
                                         </tr>

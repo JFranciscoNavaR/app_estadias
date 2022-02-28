@@ -91,7 +91,10 @@
                                 </button>
                                 <ul class="dropdown-menu">
                                     <x-jet-dropdown-link href="{{-- route('') --}}">
-                                        Hola
+                                        Agendar una cita
+                                    </x-jet-dropdown-link>
+                                    <x-jet-dropdown-link href="{{-- route('') --}}">
+                                        Agendar múltiples citas para el mismo paciente
                                     </x-jet-dropdown-link>
                                 </ul>
                             </div>
